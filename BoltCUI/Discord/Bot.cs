@@ -59,12 +59,11 @@ namespace Bolt_AIO
                 if (Settings.DiscordID == DiscordREALID)
                 {
                     var builder = new EmbedBuilder();
-                    builder.WithTitle("Bolt AIO • Stats ");
                     builder.WithDescription(
                         $"Hits: {Program.Hits}\nFrees: {Program.Frees}\nOthers: {Program.Others}\nFails: {Program.Fails}\nErrors: {Program.Errors}\nChecked: {Program.TotalChecks} / {Program.Combostotal}\n");
                     builder.WithColor(Discord.Color.Purple);
-                    builder.WithFooter("Coded By Quanotics#3931 • Bolt Discord -> https://discord.gg/A2jCUZsAYC",
-                        "https://cdn.discordapp.com/attachments/708528132327735427/781294769375674378/Bolt_Logo.png");
+                    builder.WithFooter("Ninja 🖤#1111 • Paradise Discord -> https://discord.gg/dNk3mzZ3uE",
+                        "https://media.discordapp.net/attachments/888430876160053268/894467112540700722/paradise_logo.png?width=559&height=559");
                     message.Channel.SendMessageAsync("", false, builder.Build());
                 }
             }
@@ -75,12 +74,12 @@ namespace Bolt_AIO
                 if (Settings.DiscordID == DiscordREALID)
                 {
                     var builder = new EmbedBuilder();
-                    builder.WithTitle("Bolt AIO • Help");
+                    builder.WithTitle("Paradise AIO • Help");
                     builder.WithDescription(
                         "**Help** - Shows a list of Commands!\n**Stats** - Shows Checker Stats. Hits, Fails, ect.");
                     builder.WithColor(Discord.Color.Purple);
-                    builder.WithFooter("Coded By Quanotics#3931 • Bolt Discord -> https://discord.gg/A2jCUZsAYC",
-                        "https://cdn.discordapp.com/attachments/708528132327735427/781294769375674378/Bolt_Logo.png");
+                    builder.WithFooter("Ninja 🖤#1111 • Paradise Discord -> https://discord.gg/dNk3mzZ3uE",
+                        "https://media.discordapp.net/attachments/888430876160053268/894467112540700722/paradise_logo.png?width=559&height=559");
                     message.Channel.SendMessageAsync("", false, builder.Build());
                 }
             }
