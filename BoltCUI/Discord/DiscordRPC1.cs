@@ -8,17 +8,17 @@ namespace BoltCUI
 
         public static void Initialize()
         {
-            client = new DiscordRpcClient("781066895029436456");
+            client = new DiscordRpcClient("894461908659363840");
             client.Initialize();
             client.SetPresence(new RichPresence
             {
-                Details = "discord.gg/A2jCUZsAYC",
-                State = "Bolt AIO",
+                Details = "https://discord.gg/dNk3mzZ3uE",
+                State = "Paradise AIO",
                 Timestamps = Timestamps.Now,
                 Assets = new Assets
                 {
-                    LargeImageKey = "bolt_logo",
-                    LargeImageText = "discord.gg/A2jCUZsAYC"
+                    LargeImageKey = "paradise_logo",
+                    LargeImageText = "https://discord.gg/dNk3mzZ3uE"
                 }
             });
         }
